@@ -21,9 +21,9 @@ Create RestService Server: which will be deployed on Servlet Container.
 @PathParam - done
 @Produces - done
 @HeaderParam / @QueryParam - done
-@Context - 
+@Context - done
 @FormParam - 
-@Consumes / @FormDataParam @FormData
+@Consumes - done / @FormDataParam @FormData
 
 
 com.sun.jersey.api.container.servlet.ServletContainer
@@ -31,11 +31,21 @@ com.sun.jersey.api.container.servlet.ServletContainer
 
 Created RestWebServiceServerProject maven web project:
 
-mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp -DgroupId=com.chahar.webservice.rest.server -DartifactId=RestWebServiceServerProject -DinteractiveMode
+mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp -DgroupId=com.chahar.webservice.rest.server -DartifactId=RestWebServiceServerProject -DinteractiveMode=false
 
 ==========================================================================================================================
-Created RestWebServiceClientProject maven project:
+Created RestWebServiceMAINClientProject maven project:
 
-mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DgroupId=com.chahar.webservice.rest.client -DartifactId=RestWebServiceClientProject -DinteractiveMode
+mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DgroupId=com.chahar.webservice.rest.client -DartifactId=RestWebServiceClientProject -DinteractiveMode=false
 
 =======================================================================================================================
+
+Created RestWebServiceJERSEYClientProject maven project:
+
+mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DgroupId=com.chahar.webservice.rest.client -DartifactId=RestWebServiceJERSEYClientProject -DinteractiveMode=false
+=======================================================================================================================
+
+Reference:
+	https://javapapers.com/java/restful-web-services-with-java-jax-rs-using-jersey/
+	https://www.nabisoft.com/tutorials/java-ee/producing-and-consuming-json-or-xml-in-java-rest-services-with-jersey-and-jackson
+	

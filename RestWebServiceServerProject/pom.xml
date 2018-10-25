@@ -49,6 +49,14 @@
 		<scope>provided</scope>
 	</dependency>
 	
+	<!-- dependency for json to object to json. -->
+	<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-json -->
+	<dependency>
+	    <groupId>com.sun.jersey</groupId>
+	    <artifactId>jersey-json</artifactId>
+	    <version>1.19</version>
+	</dependency>
+	
     
     <!-- LOGGING FRAMEWORK DEPENDENCY STARTS FROM HERE -->
     <!-- Log4j2 dependencies starts here -->

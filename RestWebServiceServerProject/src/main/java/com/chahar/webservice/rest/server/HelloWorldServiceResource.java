@@ -65,6 +65,9 @@ public class HelloWorldServiceResource {
 				+ "</hello>";
 	}
 	
+	/* http://localhost:8080/ws_rest_server/rest/helloworld/request/post_queryparam_xml?name1=yashchahar3
+	 * test from advance rest client plugin from chrome browser
+	*/
 	@POST
 	@Path("/request/post_queryparam_xml")
 	@Produces(MediaType.TEXT_XML)
