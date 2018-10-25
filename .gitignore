@@ -2,4 +2,9 @@
 #build-tools/
 
 
+RestWebServiceServerProject/target
+
+RestWebServiceClientProject/target
+
+
 
