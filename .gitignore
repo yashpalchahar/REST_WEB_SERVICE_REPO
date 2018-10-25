@@ -4,7 +4,9 @@
 
 RestWebServiceServerProject/target
 
-RestWebServiceClientProject/target
+RestWebServiceMAINClientProject/target
+
+RestWebServiceJERSEYClientProject/target
 
 
 
