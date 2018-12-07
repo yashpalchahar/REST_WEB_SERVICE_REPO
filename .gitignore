@@ -1,12 +1,20 @@
-#setMavenEnv.bat
-#build-tools/
+setMavenEnv.bat
+build-tools/
 
+.idea/
 
+RestWebServiceServerProject/.project
+RestWebServiceServerProject/.classpath
+RestWebServiceServerProject/.settings
 RestWebServiceServerProject/target
 
+RestWebServiceMAINClientProject/.project
+RestWebServiceMAINClientProject/.classpath
+RestWebServiceMAINClientProject/.settings
 RestWebServiceMAINClientProject/target
 
+RestWebServiceJERSEYClientProject/.project
+RestWebServiceJERSEYClientProject/.classpath
+RestWebServiceJERSEYClientProject/.settings
 RestWebServiceJERSEYClientProject/target
-
-
 
