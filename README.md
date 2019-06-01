@@ -1,3 +1,5 @@
+Used maven : 3.3.9
+
 # REST_WEB_SERVICE_REPO
 
 # REST - Representational State Transfer

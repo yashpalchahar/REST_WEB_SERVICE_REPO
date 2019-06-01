@@ -1,5 +1,4 @@
-setMavenEnv.bat
-build-tools/
+#setMavenEnv.bat
 
 .idea/
 
